@@ -1,0 +1,75 @@
+.box{
+    width: 300px;
+    height: 400px;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns:repeat(4, 300px);
+    justify-items: start;
+    grid-template-rows: 400px;
+    align-items: center;
+    gap: 5px;
+}
+
+.image1{
+    width: 300px;
+    height: 400px;
+}
+
+.image2{
+    width: 300px;
+    height: 400px;
+}
+
+.image3{
+    width: 600px;
+    height: 400px;
+    grid-column: span 3/5;
+}
+
+.image4{
+    width: 0px;
+    height: 0px;
+}
+
+.image5{
+    width: 300px;
+    height: 400px;
+}
+
+.image6{
+    width: 300px;
+    height: 400px;
+}
+
+.image7{
+    width: 300px;
+    height: 400px;
+}
+
+.image8{
+    width: 300px;
+    height: 800px;
+    grid-row: span 2/4;
+}
+
+.image9{
+    width: 300px;
+    height: 400px;
+}
+
+.image10{
+    width: 600px;
+    height: 400px;
+}
+
+.image11{
+    width: 0px;
+    height: 0px;
+}
+
+.image12{
+    width: 0px;
+    height: 0px;
+}
